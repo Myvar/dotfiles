@@ -2,7 +2,7 @@
 
 ########## Variables
 
-dir=~/dotfiles                    # dotfiles directory
+dir=~/GitHub/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
 files="vimrc"    # list of files/folders to symlink in homedir
 
@@ -15,6 +15,7 @@ echo "...done"
 
 # change to the dotfiles directory
 echo "Changing to the $dir directory"
+
 cd $dir
 echo "...done"
 
